@@ -1,0 +1,86 @@
+/* RESET */
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+/* DEV temp styles */
+/*@import 'developer-styles.css'; */
+/* comment this ^ out - when you are ready */
+
+/* SETTINGS */
+@import 'settings.css'; /* variables/ etc */
+
+/* STRUCTURE */
+@import 'structure.css';
+
+/* TYPOGRAPHY */
+@import 'typography.css';
+
+/* COMPONENTS */
+@import 'components.css';
+
+/* ? */
+@import 'header.css';
+@import 'footer.css';
+
+/* MODULES */
+@import '../modules/masthead/style.css';
+@import '../modules/big-heading/style.css';
+@import '../modules/one-paragraph/style.css';
+@import '../modules/heading-and-paragraph/style.css';
+@import '../modules/quote-spotlight/style.css';
+@import '../modules/call-to-action/style.css';
+@import '../modules/graphic-diptych/style.css';
+@import '../modules/graphic-diptych/style.css';
+@import '../modules/articles-intro/style.css';
+@import '../modules/articles-intro/article-card.css';
+@import '../modules/site-map/style.css';
+
+
+html {
+	background-color: var(--paper);
+	color: var(--ink);
+}
+
+control-center {
+	display: none;
+}
+
+control-center field {
+	display: grid;
+}
+
+.controls-open control-center {
+	display: flex;
+	padding: 10px;
+	gap: 10px;
+}
+
+
+/* just to show the full-width and section seperation */
+section:nth-of-type(odd) {
+	background-color: rgba(0,0,0,.05);
+}
+
+/* just kinda mute these out */
+picture img {
+	opacity: .4;
+}
+picture {
+	background-color: var(--shadow);
+}
+
+
+.offset-intro graphic-diptych {
+	/*align-items: initial;*/
+	gap: 0;
+}
+
+.offset-intro text-content {
+	background-color: var(--color);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 100px 40px;
+	transform: translate(-20px, 0);
+	z-index: -1;
+}
