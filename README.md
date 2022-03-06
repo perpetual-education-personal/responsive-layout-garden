@@ -1,5 +1,7 @@
 # responsive-layout-garden
 
+[![Deployment status from DeployBot](https://perpetual-education.deploybot.com/badge/77558060223550/201201.svg)](https://deploybot.com)
+
 Here's one way you could go about it...
 
 What do you think? Is the way we decided to name the module files going to come back to haunt us?
