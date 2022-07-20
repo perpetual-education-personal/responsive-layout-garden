@@ -1,4 +1,4 @@
 
-<one-paragraph class='calm-voice'>
-	<p>This is one paragraph.</p>
+<one-paragraph>
+	<p class='calm-voice'>This is one paragraph.</p>
 </one-paragraph>
