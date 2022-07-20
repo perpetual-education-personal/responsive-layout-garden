@@ -6,6 +6,14 @@
 ?>
 
 
+<section>
+<inner-column>
+
+	<?php include('modules/media-overview/template.php'); ?>
+
+</inner-column>
+</section>
+
 
 <section>
 <inner-column>
@@ -14,6 +22,10 @@
 
 </inner-column>
 </section>
+
+
+
+
 
 
 
@@ -67,12 +79,12 @@
 
 
 
-<section class='offset-intro'>
+<section>
 <inner-column>
 
 	<?php 
 		$flipped = true;
-		include('modules/graphic-diptych/template.php');
+		//include('modules/graphic-diptych/template.php');
 	?>
 
 </inner-column>
