@@ -79,19 +79,6 @@
 
 
 
-<section>
-<inner-column>
-
-	<?php 
-		$flipped = true;
-		//include('modules/graphic-diptych/template.php');
-	?>
-
-</inner-column>
-</section>
-
-
-
 <section class='offset-squares'>
 <inner-column>
 

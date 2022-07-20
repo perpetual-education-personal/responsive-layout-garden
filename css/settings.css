@@ -2,7 +2,7 @@
 html {
 	--black: #111111;
 	--white: #FFFFFF;
-	--color: #9ec9eb;
+	--color: #ff0066;
 	--highlight: #aadee9;
 
 	--shadow: rgba(0,0,0,.8);
@@ -22,4 +22,13 @@ html {
 
 .thingy {
 	color: var(--highlight); /* used as variable */
+}
+
+
+@media (prefers-color-scheme: dark) {
+	html {
+		--paper: var(--black);
+		--ink: var(--white);
+		--color: lime;
+	}
 }

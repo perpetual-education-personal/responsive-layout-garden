@@ -19,7 +19,7 @@ media-overview .article-list {
 }
 
 media-overview .card {
-	border-top: 1px solid black;
+	border-top: 1px solid var(--ink);
 	padding-top:  20px;
 }
 
@@ -27,6 +27,11 @@ media-overview .image-grid {
 	display: grid;
 	gap: 20px;
 }
+
+media-overview picture {
+	border-radius: var(--corners);
+}
+
 @media (min-width: 500px) {
 	media-overview .image-grid {
 		grid-template-columns: 1fr 1fr;
@@ -49,7 +54,7 @@ media-overview .image-grid {
 
 	media-overview .image-grid {
 		grid-column: 2 / 3;
-		grid-row: 2 / 3;
+		grid-row: 2 / 4;
 	}
 
 	media-overview .image-grid {
