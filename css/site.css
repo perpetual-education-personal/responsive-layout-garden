@@ -80,10 +80,10 @@ main > section:nth-of-type(odd) {
 
 /* just kinda mute these out */
 picture img {
-	opacity: .4;
+	opacity: 0;
 }
 picture {
-	background-color: var(--shadow);
+	background-color: var(--ink);
 }
 
 
